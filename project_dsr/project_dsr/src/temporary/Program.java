@@ -17,7 +17,7 @@ public class Program {
 		
 		System.out.printf("DSR ------------> R$ %.2f%n", Calculator(comissao));
 		System.out.printf("COMISSÃO -------> R$ %.2f%n", sub(comissao));
-		System.out.printf("VALOR BRUTO ----> R$ %.2f%n", Calculator(comissao));
+		System.out.printf("VALOR BRUTO ----> R$ %.2f%n", comissao);
 		
 		System.out.println("=============================");
 		
