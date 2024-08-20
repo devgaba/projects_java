@@ -12,11 +12,11 @@ public class Program {
 		Locale.setDefault(Locale.US);
 		Scanner input = new Scanner(System.in);
 		
-		System.out.print("Enter the value of invoice: ");
+		System.out.println("Enter the value of invoice: ");
 		double value = input.nextDouble();
 		
 		TaxValues calc_tax = new TaxValues(value);
-		
+		System.out.println("=======================");
 		System.out.println(calc_tax);
 		input.close();
 	}

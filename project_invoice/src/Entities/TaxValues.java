@@ -27,13 +27,13 @@ public class TaxValues {
 	}
 	
 	public String toString() {
-		return "PIS: "
+		return "PIS-----------"
 			+ String.format("%.2f%n", calcPis(value))
-			+ "COFINS: "
+			+ "COFINS---------"
 			+ String.format("%.2f%n", calcCof(value))
-			+ "IRRF: "
+			+ "IRRF-----------"
 			+ String.format("%.2f%n", calcIr(value))
-			+ "CSLL: "
+			+ "CSLL-----------"
 			+ String.format("%.2f%n", calcCsl(value));
 	}
 }
