@@ -26,7 +26,8 @@ public class Program {
 			String job = input.nextLine();
 			
 			emp[i] = new Employee(fullName, age, cpf, job);
-			System.out.println("Funcionário Cadastrado");
+			
+			System.out.println("--------Cadastro Realizado!-------");
 			
 			switch(job) {
 			case "Manager":
@@ -50,14 +51,6 @@ public class Program {
 			System.out.println("==============================");
 		}
 		
-		
-		
-		
-		
-		
-		
-		
-	
 		input.close();
 	}
 
