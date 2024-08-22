@@ -1,10 +1,11 @@
 package application;
 import people.*;
-
+import java.util.Locale;
 import java.util.Scanner;
 public class Program {
 
 	public static void main(String[] args) {
+		Locale.setDefault(Locale.US);
 		Scanner input = new Scanner(System.in);
 		
 		
@@ -28,6 +29,7 @@ public class Program {
 			emp[i] = new Employee(fullName, age, cpf, job);
 			
 			System.out.println("--------Cadastro Realizado!-------");
+			System.out.println();
 			
 			switch(job) {
 			case "Manager":
@@ -48,9 +50,11 @@ public class Program {
 				break;
 			}
 			
-			System.out.println("==============================");
+			System.out.println();
+			System.out.println("==================================");
+
 		}
-		
+			
 		input.close();
 	}
 
