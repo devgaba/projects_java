@@ -25,7 +25,7 @@ public class Program {
 	}
 	
 	public static double Calculator(double comissao) {
-		return (12.903* comissao)/ 100;
+		return (21.7749* comissao)/ 100;
 	}
 	public static double sub(double comissao) {
 		return comissao - Calculator(comissao);
